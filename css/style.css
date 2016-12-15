@@ -13,7 +13,7 @@ body {
     font-family: sans-serif;
     font-size: 1.5em;
     /* = 10.5 pixels */
-    color: #212121;
+    color: #FFFFFF;
 }
 
 ul.topnav {
@@ -22,10 +22,16 @@ ul.topnav {
     background-color: #009688;
 }
 
+
 /* Float the list items side by side */
-ul.topnav li {float: left;}
+
+ul.topnav li {
+    float: left;
+}
+
 
 /* Style the links inside the list items */
+
 ul.topnav li a {
     display: inline-block;
     color: #f2f2f2;
@@ -36,11 +42,19 @@ ul.topnav li a {
     font-size: 17px;
 }
 
+
 /* Change background color of links on hover */
-ul.topnav li a:hover {background-color: #00796B;}
+
+ul.topnav li a:hover {
+    background-color: #00796B;
+}
+
 
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
-ul.topnav li.icon {display: none;}
+
+ul.topnav li.icon {
+    display: none;
+}
 
 .footer {
     padding: 1em;
@@ -52,11 +66,11 @@ ul.topnav li.icon {display: none;}
 }
 
 .header {
-  padding: 1em;
-  background: #00796B;
-  text-align: center;
-  font-family: sans-serif;
-  font-size: 0.5em;
+    padding: 1em;
+    background: #00796B;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 0.5em;
 }
 
 .wrapper {
@@ -66,8 +80,8 @@ ul.topnav li.icon {display: none;}
 }
 
 .slides {
-  shape-outside: circle();
-  shape-margin: 0.5em;
+    shape-outside: circle();
+    shape-margin: 0.5em;
 }
 
 .main {
@@ -76,6 +90,7 @@ ul.topnav li.icon {display: none;}
     text-align: center;
     font-family: sans-serif;
     font-size: 1.5em;
+    text-decoration-color: #FFFFFF;
     /* = 10.5 pixels */
 }
 
