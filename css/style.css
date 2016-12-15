@@ -43,7 +43,6 @@ ul.topnav li a:hover {background-color: #00796B;}
 ul.topnav li.icon {display: none;}
 
 .footer {
-    border: 5px;
     padding: 1em;
     background: #009688;
     text-align: center;
@@ -52,10 +51,23 @@ ul.topnav li.icon {display: none;}
     /* = 10.5 pixels */
 }
 
+.header {
+  padding: 1em;
+  background: #00796B;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 0.5em;
+}
+
 .wrapper {
     display: flex;
     flex-direction: column;
     flex: 1 0 auto;
+}
+
+.slides {
+  shape-outside: circle();
+  shape-margin: 0.5em;
 }
 
 .main {
