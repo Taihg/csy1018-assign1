@@ -43,6 +43,11 @@ ul.topnav li a {
     font-size: 17px;
 }
 
+ul.topnav img {
+  shape-outside: circle();
+  shape-margin: 0.1em;
+  float: right;
+}
 
 /* Change background color of links on hover */
 
@@ -87,6 +92,14 @@ ul.topnav li.icon {
     shape-margin: 0.5em;
 }
 
+.logo {
+    shape-outside: circle();
+    shape-margin: 0.1em;
+    align-content: flex-end;
+    float: right;
+}
+
+
 .main {
     padding: 1em;
     background: #212121;
@@ -110,6 +123,17 @@ ul.topnav li.icon {
 }
 
 .mainbio {
+  padding: 1em;
+  background: #212121;
+  text-align: left;
+  font-family: 'Hind', sans-serif;
+  font-size: 0.6em;
+  text-decoration-color: #FFFFFF;
+  list-style: none;
+  /* = 10.5 pixels */
+}
+
+.maincv {
   padding: 1em;
   background: #212121;
   text-align: left;
