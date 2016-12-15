@@ -63,6 +63,10 @@ ul.topnav li.icon {
     font-family: sans-serif;
     font-size: 0.5em;
     /* = 10.5 pixels */
+    position:static;
+    botton: 0;
+    left: 0;
+    width: 100%;
 }
 
 .header {
@@ -89,9 +93,19 @@ ul.topnav li.icon {
     background: #212121;
     text-align: center;
     font-family: sans-serif;
-    font-size: 1.5em;
+    font-size: 0.5em;
     text-decoration-color: #FFFFFF;
     /* = 10.5 pixels */
+}
+
+.contactform {
+  padding: 1em;
+  background: #212121;
+  text-align: left;
+  font-family: sans-serif;
+  font-size: 0.5em;
+  text-decoration-color: #FFFFFF;
+  /* = 10.5 pixels */
 }
 
 .aside {
