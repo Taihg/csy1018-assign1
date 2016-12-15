@@ -44,9 +44,8 @@ ul.topnav li a {
 }
 
 ul.topnav img {
-  shape-outside: circle();
-  shape-margin: 0.1em;
   float: right;
+  display: inline-flex;
 }
 
 /* Change background color of links on hover */
@@ -90,13 +89,6 @@ ul.topnav li.icon {
 .slides {
     shape-outside: circle();
     shape-margin: 0.5em;
-}
-
-.logo {
-    shape-outside: circle();
-    shape-margin: 0.1em;
-    align-content: flex-end;
-    float: right;
 }
 
 
