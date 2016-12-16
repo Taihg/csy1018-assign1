@@ -125,6 +125,10 @@ ul.topnav li.icon {
   /* = 10.5 pixels */
 }
 
+.logo {
+  float: left;
+  align: right;
+}
 .maincv {
   padding: 1em;
   background: #212121;
@@ -138,6 +142,11 @@ ul.topnav li.icon {
 
 .messageimage {
   padding: 0.5em;
+}
+
+.messageimage2 {
+  padding: 0.1em;
+  position: absolute;
 }
 
 .image {
