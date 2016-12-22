@@ -140,6 +140,19 @@ ul.topnav li.icon {
   /* = 10.5 pixels */
 }
 
+.subheading {
+  text-decoration: underline;
+}
+
+.centre {
+  text-align: center;
+
+ }
+
+.left {
+  text-align: center;
+  position: absolute;
+}
 .messageimage {
   padding: 0.5em;
 }
@@ -203,6 +216,9 @@ $(function() {
     .slides {
       flex: 1 0 auto;
     }
+    .logo {
+      flex: 1 0 auto;
+    }
 }
 
 @media (min-width: 30em) {
@@ -219,9 +235,12 @@ $(function() {
       flex: 1 1 auto;
     }
     .slides {
-      fles: 1 1 auto;
+      flex: 1 1 auto;
     }
     .aside {
         width: 20%;
+    }
+    .logo {
+      flex: 1 1 auto;
     }
 }
