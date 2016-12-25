@@ -24,14 +24,12 @@ ul.topnav {
 }
 
 
-/* Float the list items side by side */
 
 ul.topnav li {
     float: left;
 }
 
 
-/* Style the links inside the list items */
 
 ul.topnav li a {
     display: inline-block;
@@ -49,27 +47,29 @@ ul.topnav img {
 }
 
 
-/* Change background color of links on hover */
-
 ul.topnav li a:hover {
     background-color: #00796B;
 }
 
 
-/* Hide the list item that contains the link that should open and close the topnav on small screens */
 
 ul.topnav li.icon {
     display: none;
 }
 
 .footer {
-    padding: 1em;
+    padding: 0em;
     background: #009688;
     text-align: center;
+    align-content: center;
     font-family: sans-serif;
     font-size: 0.5em;
     /* = 10.5 pixels */
     list-style: none;
+}
+
+.footer li {
+    list-style-type: none;
 }
 
 .header {
@@ -96,6 +96,7 @@ ul.topnav li.icon {
     padding: 1em;
     background: #212121;
     text-align: center;
+    align-content: center;
     font-family: 'Hind', sans-serif;
     font-size: 0.5em;
     text-decoration-color: #FFFFFF;
