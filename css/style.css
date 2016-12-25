@@ -89,7 +89,7 @@ ul.topnav li.icon {
 
 .slides {
     shape-outside: circle();
-    shape-margin: 0.5em;
+    margin: 0.5em;
 }
 
 .main {
@@ -127,7 +127,6 @@ ul.topnav li.icon {
 
 .logo {
     float: left;
-    align: right;
 }
 
 .maincv {
