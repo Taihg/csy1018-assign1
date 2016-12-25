@@ -191,11 +191,6 @@ h2 span.spacer {
     padding: 0 5px;
 }
 
-$(function() {
-    $("h2") .wrapInner("<span>") $("h2 br") .before("<span class='spacer'>") .after("<span class='spacer'>");
-}
-
-);
 .aside {
     padding: 1em;
     text-align: center;
