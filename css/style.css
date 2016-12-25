@@ -10,7 +10,7 @@ body {
     margin: 0;
     line-height: 100%;
     text-align: center;
-    font-family: 'Hind', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     font-size: 1.5em;
     /* = 10.5 pixels */
     color: #FFFFFF;
@@ -95,7 +95,7 @@ ul.topnav li.icon {
     background: #212121;
     text-align: center;
     align-content: center;
-    font-family: 'Hind', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     font-size: 0.5em;
     text-decoration-color: #FFFFFF;
     list-style: none;
@@ -106,9 +106,9 @@ ul.topnav li.icon {
     padding: 1em;
     background: #212121;
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
     font-size: 0.5em;
-    text-decoration-color: #FFFFFF;
+    text-decoration-color: #607D8B;
     list-style: none;
     /* = 10.5 pixels */
 }
@@ -117,7 +117,7 @@ ul.topnav li.icon {
     padding: 1em;
     background: #212121;
     text-align: left;
-    font-family: 'Hind', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     font-size: 0.6em;
     text-decoration-color: #FFFFFF;
     list-style: none;
@@ -132,7 +132,7 @@ ul.topnav li.icon {
     padding: 1em;
     background: #212121;
     text-align: left;
-    font-family: 'Hind', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     font-size: 0.6em;
     text-decoration-color: #FFFFFF;
     list-style: none;
