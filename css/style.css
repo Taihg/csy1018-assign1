@@ -202,6 +202,9 @@ h2 span.spacer {
     .main {
         flex: 1 0 auto;
     }
+    .maintitle {
+      flex: 1 0 auto;
+    }
     .mainbio {
         flex: 1 0 auto;
     }
@@ -222,6 +225,9 @@ h2 span.spacer {
     }
     .main {
         flex: 1 1 auto;
+    }
+    .maintitle {
+      flex: 1 1 auto;
     }
     .mainbio {
         flex: 1 1 auto;
