@@ -58,6 +58,11 @@ ul.topnav li.icon {
     display: none;
 }
 
+/*http://www.w3schools.com/css/css_navbar.asp,
+I used parts of the tutorial to create my toolbar,
+I added my own ccs styles to it
+and added my own logo*/
+
 .footer {
     padding: 0em;
     background: #009688;
@@ -137,7 +142,10 @@ ul.topnav li.icon {
   }
 }
 
-/*http://codepen.io/UoN-ThomasRose/pen/rWYOve*/
+/*http://codepen.io/UoN-ThomasRose/pen/rWYOve
+I liked how Tom had created the animation
+so I used part of the code but changed
+some of the declerations and added my own style to it*/
 
 .mainbio {
     padding: 1em;
